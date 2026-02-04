@@ -1,122 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>LiberaSOFT ERP | Gestión empresarial con IA y automatización</title>
-    <meta
-      name="description"
-      content="LiberaSOFT ERP es un sistema de gestión empresarial con automatización e inteligencia artificial para empresas de Argentina y LATAM."
-    />
-
-    <meta name="author" content="LiberaSOFT" />
-    <meta name="application-name" content="LiberaSOFT ERP" />
-    <meta
-      name="category"
-      content="Software ERP, Gestión empresarial, Automatización"
-    />
-    <meta name="robots" content="index, follow" />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="LiberaSOFT ERP" />
-    <meta property="og:title" content="LiberaSOFT ERP" />
-    <meta
-      property="og:description"
-      content="Sistema ERP con inteligencia artificial y automatización para la gestión empresarial."
-    />
-    <meta property="og:url" content="https://www.liberasoft.com.ar" />
-    <meta
-      property="og:image"
-      content="https://www.liberasoft.com.ar/assets/og-liberasoft.png"
-    />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="LiberaSOFT ERP" />
-    <meta
-      name="twitter:description"
-      content="ERP inteligente para empresas modernas"
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.liberasoft.com.ar/assets/og-liberasoft.png"
-    />
-
-    <link rel="canonical" href="https://www.liberasoft.com.ar" />
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "LiberaSOFT ERP",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web",
-        "description": "LiberaSOFT ERP es un sistema de gestión empresarial con inteligencia artificial y automatización para pymes y empresas medianas.",
-        "url": "https://www.liberasoft.com.ar",
-        "publisher": {
-          "@type": "Organization",
-          "name": "LiberaSOFT",
-          "url": "https://www.liberasoft.com.ar"
-        },
-        "audience": {
-          "@type": "BusinessAudience",
-          "audienceType": "Empresas y PYMES"
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock"
-        }
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "¿Qué es LiberaSOFT ERP?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "LiberaSOFT ERP es un sistema de gestión empresarial que integra automatización e inteligencia artificial para optimizar procesos administrativos y operativos."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Para qué tipo de empresas está pensado?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Está orientado a pymes y empresas medianas que buscan mejorar su eficiencia operativa y control de gestión."
-            }
-          }
-        ]
-      }
-    </script>
-
+    <meta charset="utf-8" />
+    <title>
+      Liberasoft | IT Solutions & Technology HTML Template | Home Page 01
+    </title>
     <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link
-      href="plugins/revolution/css/settings.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- REVOLUTION SETTINGS STYLES -->
-    <link
-      href="plugins/revolution/css/layers.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- REVOLUTION LAYERS STYLES -->
-    <link
-      href="plugins/revolution/css/navigation.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- REVOLUTION NAVIGATION STYLES -->
-
     <link href="css/style.css" rel="stylesheet" />
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
@@ -130,51 +20,14 @@
     />
     <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-
-    <!-- SCRIPT PARA FUNCIONES JS -->
-    <script src="js/frontend.js"></script>
   </head>
 
-  <!-- MODAL DE PRECIOS -->
-  <div id="contratarModal" class="modal-overlay">
-    <div class="modal-box">
+  <!-- MODAL DE SABER MAS DE MODULOS -->
+  <div id="globalModal" class="modal-overlay modal-overlay-text">
+    <div class="modal-box-text">
       <button class="modal-close">&times;</button>
-
-      <h3>Solicitar contratación</h3>
-
-      <form id="contratarForm">
-        <div class="form-group">
-          <label>Nombre y apellido</label>
-          <input type="text" name="nombre" required />
-        </div>
-
-        <div class="form-group">
-          <label>Nombre de la empresa</label>
-          <input type="text" name="empresa" required />
-        </div>
-
-        <div class="form-group">
-          <label>CUIT</label>
-          <input type="text" name="cuit" required />
-        </div>
-
-        <div class="form-group">
-          <label>Rubro</label>
-          <input type="text" name="rubro" />
-        </div>
-
-        <div class="form-group">
-          <label>Cantidad de empleados</label>
-          <input type="number" name="empleados" min="1" />
-        </div>
-
-        <div class="form-group">
-          <label>Plan seleccionado</label>
-          <input type="text" name="plan" id="planInput" readonly />
-        </div>
-
-        <button type="submit" class="btn-enviar">Enviar solicitud</button>
-      </form>
+      <h3 id="modalTitle">Más información</h3>
+      <div id="modalContent"></div>
     </div>
   </div>
 
@@ -197,20 +50,17 @@
                     >info@liberasoft.cloud</a
                   >
                 </li>
-
                 <li><i class="fa fa-map-marker-alt"></i> Argentina</li>
               </ul>
             </div>
 
-            <div class="top-right">
+            <!-- <div class="top-right">
               <ul class="useful-links">
-                <!--
                 <li><a href="#">Help</a></li>
                 <li><a href="#">Support</a></li>
                 <li><a href="#">Contact</a></li>
-                -->
               </ul>
-            </div>
+            </div> -->
           </div>
 
           <div class="outer-box">
@@ -238,14 +88,14 @@
           <div class="main-box">
             <div class="logo-box">
               <div class="logo">
-                <a href="index.html"
+                <a href="index-4-single.html"
                   ><img
-                    src="images/liberasoft.png"
+                    src="images/liberasoft_wms.png"
                     alt=""
                     title="Sotech"
                     class="logo-liberasoft"
                 /></a>
-                <!-- <a href="index.html"
+                <!-- <a href="index-4-single.html"
                   ><img src="images/logo.png" alt="" title="Sotech"
                 /></a> -->
               </div>
@@ -255,33 +105,29 @@
             <div class="nav-outer">
               <nav class="nav main-menu">
                 <ul class="navigation onepage-nav">
-                  <li class="current"><a href="#home">Home</a></li>
-                  <li><a href="#modulos">Módulos</a></li>
-                  <li><a href="#apps">APPs</a></li>
-                  <li><a href="#integraciones">Integraciones</a></li>
-                  <li><a href="#ia">IA</a></li>
-                  <li><a href="#pricing">Precios</a></li>
-                  <li><a href="#contact">Contacto</a></li>
+                  <li class="current">
+                    <a href="index-4-single.html#home">Home</a>
+                  </li>
+                  <li><a href="index-4-single.html#modulos">Módulos</a></li>
+                  <li><a href="index-4-single.html#contact">Contacto</a></li>
                 </ul>
               </nav>
               <!-- Main Menu End-->
 
               <div class="outer-box">
-                <div class="ui-btn-outer">
-                  <!--
+                <!-- <div class="ui-btn-outer">
                   <button class="ui-btn ui-btn search-btn">
                     <span class="icon lnr lnr-icon-search"></span>
                   </button>
                   <a href="#" class="ui-btn"
                     ><i class="lnr-icon-shopping-cart"></i
                   ></a>
--->
-                </div>
+                </div> -->
 
                 <a href="tel:+92(8800)9806" class="info-btn">
                   <i class="icon fa fa-phone"></i>
                   <small>Teléfono</small><br />
-                  + 54 ( 341 ) 156659888
+                  + 54 (341) 156659888
                 </a>
 
                 <!-- Mobile Nav toggler -->
@@ -302,8 +148,8 @@
           <nav class="menu-box">
             <div class="upper-box">
               <div class="nav-logo">
-                <a href="index.html"
-                  ><img src="images/liberasoft.png" alt="" title=""
+                <a href="index-4-single.html"
+                  ><img src="images/liberasoft_wms.png" alt="" title=""
                 /></a>
               </div>
               <div class="close-btn"><i class="icon fa fa-times"></i></div>
@@ -336,7 +182,7 @@
                 <div class="contact-info-box">
                   <span class="icon lnr-icon-clock"></span>
                   <span class="title">Enviar Email</span>
-                  Lun - Sab 8:00 - 18:30, Domingo - CERRADO
+                  Rosario - Argentina
                 </div>
               </li>
             </ul>
@@ -367,7 +213,7 @@
           </button>
 
           <div class="search-inner">
-            <form method="post" action="index.html">
+            <form method="post" action="index-4-single.html">
               <div class="form-group">
                 <input
                   type="search"
@@ -389,9 +235,9 @@
             <div class="inner-container">
               <!--Logo-->
               <div class="logo">
-                <a href="index.html" title=""
+                <a href="index-4-single.html" title=""
                   ><img
-                    src="images/liberasoft-2.png"
+                    src="images/wms_logo_black.png"
                     class="logo-liberasoft-2"
                     alt=""
                     title=""
@@ -422,35 +268,28 @@
       </header>
       <!--End Main Header -->
 
-      <!--Banner Section-->
-      <section class="banner-section-six">
+      <!-- Banner Section -->
+      <section class="banner-section">
         <div class="banner-carousel owl-carousel owl-theme">
           <!-- Slide Item -->
           <div class="slide-item">
             <div
               class="bg-image"
-              style="background-image: url(images/main-slider/s1-1.jpg)"
+              style="background-image: url(images/main-slider/1.jpg)"
             ></div>
             <div class="auto-container">
               <div class="content-box">
-                <div class="inner-content">
-                  <div class="shape-line animate-1"></div>
-                  <div class="anim-icons">
-                    <div class="shape-1 bounce-y animate-4"></div>
-                    <div class="shape-2 bounce-x animate-5"></div>
-                    <div class="shape-3 bounce-y animate-4"></div>
-                  </div>
-                  <span class="sub-title animate-1"
-                    ><span class="inner">SISTEMA DE GESTIÓN ERP</span></span
+                <span class="sub-title animate-1"
+                  >Representantes Oficiales</span
+                >
+                <h1 class="title animate-2">
+                  Generalscan <br />
+                </h1>
+                <h2 class="title-stroke animate-3">   </h2>
+                <div class="btn-box animate-3">
+                  <a href="https://www.generalscan.cloud/" target="_blank" class="theme-btn btn-style-one"
+                    ><span class="btn-title">Saber más</span></a
                   >
-                  <h1 class="title animate-2">
-                    Escalable, Modular, En la nube
-                  </h1>
-                  <div class="btn-box animate-3">
-                    <a href="#modulos" class="theme-btn btn-style-one"
-                      ><span class="btn-title">Ver más</span></a
-                    >
-                  </div>
                 </div>
               </div>
             </div>
@@ -460,99 +299,22 @@
           <div class="slide-item">
             <div
               class="bg-image"
-              style="background-image: url(images/main-slider/s1-2.jpg)"
+              style="background-image: url(images/main-slider/s4-2.jpg)"
             ></div>
             <div class="auto-container">
               <div class="content-box">
-                <div class="inner-content">
-                  <div class="shape-line animate-1"></div>
-                  <div class="anim-icons">
-                    <div class="shape-1 bounce-y animate-4"></div>
-                    <div class="shape-2 bounce-x animate-5"></div>
-                    <div class="shape-3 bounce-y animate-4"></div>
-                  </div>
-                  <span class="sub-title animate-1"
-                    ><span class="inner"
-                      >WMS PARA GESTIÓN DE DEPÓSITOS</span
-                    ></span
-                  >
-                  <h1 class="title animate-2">
-                    Sistema WMS que Simplifica tu logística
-                  </h1>
-                  <div class="btn-box animate-3">
-                    <a
-                      href="index-4-single.html"
-                      target="_blank"
-                      class="theme-btn btn-style-one"
-                      ><span class="btn-title">Ver más</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide Item -->
-          <div class="slide-item">
-            <div
-              class="bg-image"
-              style="background-image: url(images/main-slider/s1-1.jpg)"
-            ></div>
-            <div class="auto-container">
-              <div class="content-box">
-                <div class="inner-content">
-                  <div class="shape-line animate-1"></div>
-                  <div class="anim-icons">
-                    <div class="shape-1 bounce-y animate-4"></div>
-                    <div class="shape-2 bounce-x animate-5"></div>
-                    <div class="shape-3 bounce-y animate-4"></div>
-                  </div>
-                  <span class="sub-title animate-1"
-                    ><span class="inner">GENERALSCAN</span></span
-                  >
-                  <h1 class="title animate-2">
-                    Representante <br />
-                    Oficiales
-                  </h1>
-                  <div class="btn-box animate-3">
-                    <a
-                      href="https://www.generalscan.cloud/"
-                      target="_blank"
-                      class="theme-btn btn-style-one"
-                      ><span class="btn-title">Ver más</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide Item -->
-          <div class="slide-item">
-            <div
-              class="bg-image"
-              style="background-image: url(images/main-slider/s1-1.jpg)"
-            ></div>
-            <div class="auto-container">
-              <div class="content-box">
-                <div class="inner-content">
-                  <div class="shape-line animate-1"></div>
-                  <div class="anim-icons">
-                    <div class="shape-1 bounce-y animate-4"></div>
-                    <div class="shape-2 bounce-x animate-5"></div>
-                    <div class="shape-3 bounce-y animate-4"></div>
-                  </div>
-                  <span class="sub-title animate-1"
-                    ><span class="inner">AUTOMATIZACIÓN EN PROCESOS</span></span
-                  >
-                  <h1 class="title animate-2">
-                    n8n para automatizar <br />tus procesos
-                  </h1>
-                  <div class="btn-box animate-3">
-                    <a href="#ia" class="theme-btn btn-style-one"
-                      ><span class="btn-title">ver más</span></a
-                    >
-                  </div>
+                <span class="sub-title animate-1"
+                  >Tu operación logística, más inteligente y conectada</span
+                >
+                <h1 class="title animate-2">
+                  Control total de <br />tu almacén.
+                </h1>
+                <h2 class="title-stroke animate-3"> </h2>
+                <div class="btn-box animate-3">
+                  <!--
+                  <a href="page-about.html" class="theme-btn btn-style-one"
+                    ><span class="btn-title">Explore More</span></a
+                  >-->
                 </div>
               </div>
             </div>
@@ -561,1086 +323,11 @@
       </section>
       <!--END Banner Section -->
 
-      <!-- Features Section Two -->
-      <section class="features-section-two">
+      <!-- Clients Section  
+      <section class="clients-section border-bottom">
         <div class="auto-container">
-          <div
-            class="row row-cols-1 row-cols-sm-3 row-cols-lg-5 justify-content-center"
-          >
-            <!-- Feature Block Two -->
-            <div class="feature-block-two col wow fadeInUp">
-              <div class="inner-box">
-                <!-- <i class="icon flaticon-business-011-dollar"></i>
-                <h4 class="title">
-                  <a href="page-service-details.html"
-                    >Global <br />Networking</a
-                  >
-                </h4> -->
-                <div class="icon-box">
-                  <img
-                    src="images/feature-home/100_cloud.png"
-                    alt="100_cloud"
-                    class="feature-icon"
-                  />
-                </div>
-                <h4 class="title">100% Cloud</h4>
-              </div>
-            </div>
-
-            <!-- Feature Block Two -->
-            <div class="feature-block-two col wow fadeInUp">
-              <div class="inner-box">
-                <!-- <i class="icon flaticon-business-049-presentation"></i>
-                <h4 class="title">
-                  <a href="page-service-details.html"
-                    >Business <br />Consultation</a
-                  >
-                </h4> -->
-                <div class="icon-box">
-                  <img
-                    src="images/feature-home/IoT.png"
-                    alt="Global"
-                    class="feature-icon"
-                  />
-                </div>
-                <h4 class="title">Automatizaciones</h4>
-              </div>
-            </div>
-
-            <!-- Feature Block Two -->
-            <div class="feature-block-two col wow fadeInUp">
-              <div class="inner-box">
-                <!-- <i class="icon flaticon-business-061-meeting"></i>
-                <h4 class="title">
-                  <a href="page-service-details.html"
-                    >Website <br />Development</a
-                  >
-                </h4> -->
-                <div class="icon-box">
-                  <img
-                    src="images/feature-home/api.png"
-                    alt="Api"
-                    class="feature-icon"
-                  />
-                </div>
-                <h4 class="title">Integrado</h4>
-              </div>
-            </div>
-
-            <!-- Feature Block Two -->
-            <div class="feature-block-two col wow fadeInUp">
-              <div class="inner-box">
-                <!-- <i class="icon flaticon-business-030-settings"></i>
-                <h4 class="title">
-                  <a href="page-service-details.html"
-                    >UI/UX Design <br />Services</a
-                  >
-                </h4> -->
-                <div class="icon-box">
-                  <img
-                    src="images/feature-home/experiencia.png"
-                    alt="Experiencia"
-                    class="feature-icon"
-                  />
-                </div>
-                <h4 class="title">20 años de experiencia</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="bottom-text">
-            IT Technology services built specifically for your business.
-            <a href="page-services.html" class="theme-btn btn-style-one small"
-              ><span class="btn-title">Obtener una demo</span></a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- End Features Section Two -->
-
-      <!-- About Section -->
-      <section class="about-section">
-        <div class="auto-container">
-          <div class="row">
-            <div
-              class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-lg-2 wow fadeInRight"
-              data-wow-delay="600ms"
-            >
-              <div class="inner-column">
-                <div class="sec-title">
-                  <span class="sub-title">Sobre LiberaSOFT ERP</span>
-                  <h2>La Nueva Generación de Sistemas ERP</h2>
-                  <div class="text">
-                    Tecnología avanzada, procesos automatizados y una
-                    experiencia de uso pensada para el negocio actual.
-                    <br /><br />
-                    Una plataforma inteligente que acompaña la evolución de tu
-                    empresa.
-                  </div>
-                </div>
-
-                <ul class="list-style-two">
-                  <li>
-                    <i class="fa fa-check-circle"></i> En la nube o en sus
-                    instalaciones.
-                  </li>
-                  <li>
-                    <i class="fa fa-check-circle"></i> Interfaces modernas,
-                    intuitivas y amigables.
-                  </li>
-                  <li>
-                    <i class="fa fa-check-circle"></i> En continua evolución
-                  </li>
-                </ul>
-
-                <!--
-                <div class="btn-box">
-                  <div class="founder-info">
-                    <div class="thumb">
-                      <img src="images/resource/thumb-2.png" alt="" />
-                    </div>
-                    <h5 class="name">Jessica brown</h5>
-                    <span class="designation">Founder of company</span>
-                  </div>
-                  <a href="page-about.html" class="theme-btn btn-style-one"
-                    ><span class="btn-title">Explore now</span></a
-                  >
-                </div>
-              --></div>
-            </div>
-
-            <!-- Image Column -->
-            <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
-              <div class="inner-column wow fadeInLeft">
-                <figure class="image-1 overlay-anim wow fadeInUp">
-                  <img src="images/resource/about-1.jpg" alt="" />
-                </figure>
-                <figure class="image-2 overlay-anim wow fadeInRight">
-                  <img src="images/resource/about-2.jpg" alt="" />
-                </figure>
-                <div class="experience bounce-y">
-                  <div class="inner">
-                    <i class="icon flaticon-business-018-startup"></i>
-                    <div class="text">
-                      <strong>20+</strong> Años de <br />experiencia
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Emd About Section -->
-
-      <!-- Modulos Section -->
-      <section id="modulos" class="services-section-seven">
-        <div class="auto-container">
-          <div class="sec-title light text-center">
-            <span class="sub-title">MÓDULOS</span>
-            <h2>Soluciones modulares que se adaptan a tu negocio</h2>
-          </div>
-
-          <div
-            class="row row-cols-1 row-cols-sm-3 row-cols-lg-5 justify-content-center"
-          >
-            <!-- <div class="row justify-content-center"> -->
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <!-- <div
-              class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-            > -->
-              <div class="inner-box">
-                <!-- MODIFICADO -->
-                <!-- <div class="icon-box">
-                  <i class="icon flaticon-business-002-graph"></i>
-                </div> -->
-                <!-- AGREGADO -->
-                <div class="icon-box">
-                  <img
-                    src="images/modulos/clientes.png"
-                    alt="Clientes"
-                    class="modulo-icon"
-                  />
-                </div>
-                <h4 class="title">
-                  <a href="module-clients.html">Cliente</a>
-                </h4>
-                <div class="text">
-                  Clientes organizados, procesos ágiles y mejor experiencia
-                  comercial.
-                </div>
-                <a href="module-clients.html" class="read-more"
-                  >Ver más <i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <div class="inner-box">
-                <div class="icon-box">
-                  <img
-                    src="images/modulos/proveedor.png"
-                    alt="Proveedores"
-                    class="modulo-icon"
-                  />
-                </div>
-                <h4 class="title">
-                  <a href="module-proveedores.html">Proveedores</a>
-                </h4>
-                <div class="text">
-                  Información centralizada de proveedores para una gestión clara
-                  y confiable.
-                </div>
-                <a href="module-proveedores.html" class="read-more"
-                  >Ver más <i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <div class="inner-box">
-                <div class="icon-box">
-                  <img
-                    src="images/modulos/ventas.png"
-                    alt="Ventas"
-                    class="modulo-icon"
-                  />
-                </div>
-                <h4 class="title">
-                  <a href="module-ventas.html">Ventas</a>
-                </h4>
-                <div class="text">
-                  Ventas ágiles, controladas y orientadas a maximizar
-                  resultados.
-                </div>
-                <a href="module-ventas.html" class="read-more"
-                  >Ver más <i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <div class="inner-box">
-                <div class="icon-box">
-                  <img
-                    src="images/modulos/compras.png"
-                    alt="Compras"
-                    class="modulo-icon"
-                  />
-                </div>
-                <h4 class="title">
-                  <a href="module-compras.html">Compras</a>
-                </h4>
-                <div class="text">
-                  Compras inteligentes para optimizar costos y abastecimiento.
-                </div>
-                <a href="module-compras.html" class="read-more"
-                  >Ver más <i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <div class="inner-box">
-                <div class="icon-box">
-                  <i class="icon flaticon-business-054-graph"></i>
-                </div>
-                <h4 class="title">
-                  <a href="module-fondos.html">Fondos</a>
-                </h4>
-                <div class="text">
-                  Administración eficiente de cajas y bancos con total
-                  trazabilidad.
-                </div>
-                <a href="module-fondos.html" class="read-more"
-                  >Ver más <i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <div class="inner-box">
-                <div class="icon-box">
-                  <img
-                    src="images/modulos/stock.png"
-                    alt="Stock"
-                    class="modulo-icon"
-                  />
-                </div>
-                <h4 class="title">
-                  <a href="module-stock.html">Stock</a>
-                </h4>
-                <div class="text">
-                  Inventarios claros, controlados y siempre actualizados.
-                </div>
-                <a href="module-stock.html" class="read-more"
-                  >Ver más<i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <div class="inner-box">
-                <div class="icon-box">
-                  <img
-                    src="images/modulos/contabilidad.png"
-                    alt="Contabilidad"
-                    class="modulo-icon"
-                  />
-                </div>
-                <h4 class="title">
-                  <a href="module-contabilidad.html">Contabilidad</a>
-                </h4>
-                <div class="text">
-                  Información contable confiable para cumplir y decidir con
-                  tranquilidad.
-                </div>
-                <a href="module-contabilidad.html" class="read-more"
-                  >Ver más <i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <div class="inner-box">
-                <div class="icon-box">
-                  <img
-                    src="images/modulos/ecommerce.png"
-                    alt="Ecommercce"
-                    class="modulo-icon"
-                  />
-                </div>
-                <h4 class="title">
-                  <a href="module-b2bb2c.html"> B2B/B2C</a>
-                </h4>
-                <div class="text">
-                  Portal B2B para clientes, integrado al ERP, rápido y fácil de
-                  usar.
-                </div>
-                <a href="module-b2bb2c.html" class="read-more"
-                  >Ver más <i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <div class="inner-box">
-                <div class="icon-box">
-                  <img
-                    src="images/modulos/wms.png"
-                    alt="WMS"
-                    class="modulo-icon"
-                  />
-                </div>
-                <h4 class="title">
-                  <a href="index-4-single.html" target="_blank">WMS</a>
-                </h4>
-                <div class="text">
-                  WMS inteligente integrado al ERP para una logística ágil,
-                  precisa y totalmente trazable.
-                </div>
-                <a href="index-4-single.html" target="_blank" class="read-more"
-                  >Ver más <i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-
-            <!-- Service Block Seven -->
-            <div class="service-block-seven dark wow fadeInUp">
-              <div class="inner-box">
-                <div class="icon-box">
-                  <img
-                    src="images/modulos/IA.png"
-                    alt="IA"
-                    class="modulo-icon"
-                  />
-                </div>
-                <h4 class="title">
-                  <a href="module-ia-automatizacion.html"
-                    >IA + Automatización</a
-                  >
-                </h4>
-                <div class="text">
-                  Automatizá tareas repetitivas y enfocá tu equipo en lo que
-                  genera valor.
-                </div>
-                <a href="module-ia-automatizacion.html" class="read-more"
-                  >Ver más <i class="fa fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Services Section -->
-
-      <!-- Call To Action Two 
-      <section
-        class="call-to-action-six"
-        style="background-image: url(./images/background/6.jpg)"
-      >
-        <div class="auto-container">
-          <div class="title-box">
-            <h1 class="title">
-              IT Solutions & Services Right <br />At Your Fingertips
-            </h1>
-            <a href="page-services.html" class="theme-btn btn-style-one"
-              ><span class="btn-title">DISCOVER MORE</span></a
-            >
-          </div>
-        </div>
-      </section>
-   End Call To Action Two -->
-
-      <!-- Services Section Three -->
-      <section class="services-section-three" id="apps">
-        <div class="auto-container">
-          <div class="sec-title text-center">
-            <span class="sub-title">APPs</span>
-            <h2>Aplicaciones integradas para una gestión sin límites</h2>
-          </div>
-          <div class="outer-box">
-            <div
-              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 justify-content-center"
-            >
-              <!-- Service Block Two -->
-              <div class="service-block-three col wow fadeInUp">
-                <div class="inner-box">
-                  <!-- MODIFICADO -->
-                  <!-- <i class="icon flaticon-business-002-graph"></i> -->
-                  <!-- AGREGADO -->
-                  <div class="icon image-icon">
-                    <img src="images/aplicaciones/picking.png" alt="Picking" />
-                  </div>
-                  <h4 class="title">
-                    <a href="apps-picking.html">Picking</a>
-                  </h4>
-                  <div class="text">
-                    Preparación de pedidos ágil y sin errores
-                  </div>
-                </div>
-              </div>
-
-              <!-- Service Block Two -->
-              <div
-                class="service-block-three col wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div class="inner-box">
-                  <div class="icon image-icon">
-                    <img
-                      src="images/aplicaciones/recepcion-stock.png"
-                      alt="Recepción de Stock"
-                    />
-                  </div>
-                  <h4 class="title">
-                    <a href="apps-recepcion-stock.html"
-                      >Recepción <br />
-                      de Stock</a
-                    >
-                  </h4>
-                  <div class="text">
-                    Ingreso de mercaderías rápido, ordenado y sin errores.
-                  </div>
-                </div>
-              </div>
-
-              <!-- Service Block Two -->
-              <div
-                class="service-block-three col wow fadeInUp"
-                data-wow-delay="400ms"
-              >
-                <div class="inner-box">
-                  <div class="icon image-icon">
-                    <img src="images/aplicaciones/auditor.png" alt="Auditor" />
-                  </div>
-                  <h4 class="title">
-                    <a href="apps-auditor-stock.html">Auditor <br />de Stock</a>
-                  </h4>
-                  <div class="text">
-                    Control de stock optimizado para una gestión confiable.
-                  </div>
-                </div>
-              </div>
-
-              <!-- Service Block Two -->
-              <div
-                class="service-block-three col wow fadeInUp"
-                data-wow-delay="600ms"
-              >
-                <div class="inner-box">
-                  <div class="icon image-icon">
-                    <img
-                      src="images/aplicaciones/pedido_interno.png"
-                      alt="Pedidos Internos de Stock"
-                    />
-                  </div>
-                  <h4 class="title">
-                    <a href="apps-pedidos-internos-stock.html"
-                      >Pedidos Internos <br />
-                      de Stock</a
-                    >
-                  </h4>
-                  <div class="text">
-                    Solicitud y transferencia interna de stock simplificada.
-                  </div>
-                </div>
-              </div>
-
-              <!-- Service Block Two -->
-              <div
-                class="service-block-three col wow fadeInUp"
-                data-wow-delay="800ms"
-              >
-                <div class="inner-box">
-                  <div class="icon image-icon">
-                    <img
-                      src="images/aplicaciones/repositor.png"
-                      alt="Repositor de Stock"
-                    />
-                  </div>
-                  <h4 class="title">
-                    <a href="apps-repositor-stock.html"
-                      >Repositor <br />de Stock</a
-                    >
-                  </h4>
-                  <div class="text">
-                    Gestión eficiente de reposición de stock
-                  </div>
-                </div>
-              </div>
-
-              <!-- Service Block Two -->
-              <div
-                class="service-block-three col wow fadeInUp"
-                data-wow-delay="800ms"
-              >
-                <div class="inner-box">
-                  <div class="icon image-icon">
-                    <img
-                      src="images/aplicaciones/devoluciones.png"
-                      alt="Recepción de Devoluciones"
-                    />
-                  </div>
-                  <h4 class="title">
-                    <a href="apps-recepcion-devoluciones.html"
-                      >Recepción <br />
-                      de Devoluciones</a
-                    >
-                  </h4>
-                  <div class="text">Control y gestión de devoluciones</div>
-                </div>
-              </div>
-
-              <!-- Service Block Two -->
-              <div
-                class="service-block-three col wow fadeInUp"
-                data-wow-delay="800ms"
-              >
-                <div class="inner-box">
-                  <div class="icon image-icon">
-                    <img
-                      src="images/aplicaciones/ventas-app.png"
-                      alt="Preventa"
-                    />
-                  </div>
-                  <h4 class="title">
-                    <a href="apps-preventa.html">Preventa</a>
-                  </h4>
-                  <div class="text">
-                    Fuerza de venta integrada para tomar pedidos de forma rápida
-                    y segura.
-                  </div>
-                </div>
-              </div>
-
-              <!-- Service Block Two -->
-              <div
-                class="service-block-three col wow fadeInUp"
-                data-wow-delay="800ms"
-              >
-                <div class="inner-box">
-                  <div class="icon image-icon">
-                    <img
-                      src="images/aplicaciones/cobranzas.png"
-                      alt="Cobranzas"
-                    />
-                  </div>
-                  <h4 class="title">
-                    <a href="apps-cobranzas.html">Cobranzas</a>
-                  </h4>
-                  <div class="text">
-                    App de cobranzas integrada para un control financiero
-                    eficiente.
-                  </div>
-                </div>
-              </div>
-
-              <!-- Service Block Two -->
-              <div
-                class="service-block-three col wow fadeInUp"
-                data-wow-delay="800ms"
-              >
-                <div class="inner-box">
-                  <div class="icon image-icon">
-                    <img
-                      src="images/aplicaciones/ultima_milla.png"
-                      alt="Última Milla"
-                    />
-                  </div>
-                  <h4 class="title">
-                    <a href="apps-ultima-milla.html"
-                      >Última <br />
-                      Milla</a
-                    >
-                  </h4>
-                  <div class="text">
-                    Providing the solutions for tech business
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Services Section Three -->
-
-      <!-- Project Section 
-      <section
-        id="projects"
-        class="project-section pb-0"
-        style="background-image: url(./images/icons/shape-tm-2.jpg)"
-      >
-        <div class="auto-container">
-          <div class="sec-title">
-            <div class="row">
-              <div class="col-lg-7">
-                <span class="sub-title">Recently Completed work</span>
-                <h2>Improve & Enhance the <br />Business Projects</h2>
-              </div>
-              <div class="col-lg-5">
-                <div class="text">
-                  Modern consumers heavily rely on digital platforms to research
-                  products before making purchasing decisions. Studies show that
-                  51% of consumers use Google to research brands.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-outer">
-            <div class="project-carousel owl-carousel owl-theme">
-              <div class="project-block">
-                <div class="inner-box">
-                  <div class="image-box">
-                    <figure class="image">
-                      <a
-                        href="images/resource/project-1.jpg"
-                        class="lightbox-image"
-                        ><img src="images/resource/project-1.jpg" alt=""
-                      /></a>
-                    </figure>
-                    <a href="page-project-details.html" class="icon"
-                      ><i class="fa fa-long-arrow-alt-right"></i
-                    ></a>
-                  </div>
-                  <div class="content-box">
-                    <h3 class="title">
-                      <a href="page-project-details.html">Digital Marketing</a>
-                    </h3>
-                    <span class="cat">Technology / Marketing</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="project-block">
-                <div class="inner-box">
-                  <div class="image-box">
-                    <figure class="image">
-                      <a
-                        href="images/resource/project-2.jpg"
-                        class="lightbox-image"
-                        ><img src="images/resource/project-2.jpg" alt=""
-                      /></a>
-                    </figure>
-                    <a href="page-project-details.html" class="icon"
-                      ><i class="fa fa-long-arrow-alt-right"></i
-                    ></a>
-                  </div>
-                  <div class="content-box">
-                    <h3 class="title">
-                      <a href="page-project-details.html">Analytic Solution</a>
-                    </h3>
-                    <span class="cat">Agency / Branding</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="project-block">
-                <div class="inner-box">
-                  <div class="image-box">
-                    <figure class="image">
-                      <a
-                        href="images/resource/project-3.jpg"
-                        class="lightbox-image"
-                        ><img src="images/resource/project-3.jpg" alt=""
-                      /></a>
-                    </figure>
-                    <a href="page-project-details.html" class="icon"
-                      ><i class="fa fa-long-arrow-alt-right"></i
-                    ></a>
-                  </div>
-                  <div class="content-box">
-                    <h3 class="title">
-                      <a href="page-project-details.html">Tech Solution</a>
-                    </h3>
-                    <span class="cat">Cyberdeck / Promotion</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="project-block">
-                <div class="inner-box">
-                  <div class="image-box">
-                    <figure class="image">
-                      <a
-                        href="images/resource/project-4.jpg"
-                        class="lightbox-image"
-                        ><img src="images/resource/project-4.jpg" alt=""
-                      /></a>
-                    </figure>
-                    <a href="page-project-details.html" class="icon"
-                      ><i class="fa fa-long-arrow-alt-right"></i
-                    ></a>
-                  </div>
-                  <div class="content-box">
-                    <h3 class="title">
-                      <a href="page-project-details.html">Marketing Cleaning</a>
-                    </h3>
-                    <span class="cat">Development / HTML</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-   End Project Section -->
-
-      <!-- Testimonial Section 
-      <section class="testimonial-section-five">
-        <div class="auto-container">
-          <div class="sec-title text-center">
-            <span class="sub-title">Client’s Testimonials</span>
-            <h2>Here are some clients <br />feedbacks</h2>
-          </div>
-
-          <div class="outer-box">
-            <div class="testimonial-carousel owl-carousel owl-theme">
-              <div class="testimonial-block-five">
-                <div class="inner-box">
-                  <div class="content-box">
-                    <div class="rating">
-                      <i class="fa fa-star"></i><i class="fa fa-star"></i
-                      ><i class="fa fa-star"></i><i class="fa fa-star"></i
-                      ><i class="fa fa-star-half-alt"></i>
-                    </div>
-                    <div class="text">
-                      IT Solutions excels with comprehensive services,
-                      user-friendly website, and dedication to customer
-                      satisfaction
-                    </div>
-                  </div>
-                  <div class="thumb">
-                    <img src="images/resource/testi-thumb-1.jpg" alt="" />
-                  </div>
-                  <span class="designation">Co Founder</span>
-                  <h4 class="name">Jhon D. William</h4>
-                </div>
-              </div>
-
-              <div class="testimonial-block-five">
-                <div class="inner-box">
-                  <div class="content-box">
-                    <div class="rating">
-                      <i class="fa fa-star"></i><i class="fa fa-star"></i
-                      ><i class="fa fa-star"></i><i class="fa fa-star"></i
-                      ><i class="fa fa-star-half-alt"></i>
-                    </div>
-                    <div class="text">
-                      IT Solutions excels with comprehensive services,
-                      user-friendly website, and dedication to customer
-                      satisfaction
-                    </div>
-                  </div>
-                  <div class="thumb">
-                    <img src="images/resource/testi-thumb-2.jpg" alt="" />
-                  </div>
-                  <span class="designation">Co Founder</span>
-                  <h4 class="name">Aleesha Brown</h4>
-                </div>
-              </div>
-
-              <div class="testimonial-block-five">
-                <div class="inner-box">
-                  <div class="content-box">
-                    <div class="rating">
-                      <i class="fa fa-star"></i><i class="fa fa-star"></i
-                      ><i class="fa fa-star"></i><i class="fa fa-star"></i
-                      ><i class="fa fa-star-half-alt"></i>
-                    </div>
-                    <div class="text">
-                      IT Solutions excels with comprehensive services,
-                      user-friendly website, and dedication to customer
-                      satisfaction
-                    </div>
-                  </div>
-                  <div class="thumb">
-                    <img src="images/resource/testi-thumb-3.jpg" alt="" />
-                  </div>
-                  <span class="designation">Co Founder</span>
-                  <h4 class="name">Mike Hardon</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
- End Testimonial Section -->
-
-      <!-- Fun Fact Section -->
-      <section
-        class="fun-fact-section-three"
-        style="background-image: url(./images/background/7.jpg)"
-      >
-        <div class="auto-container">
-          <div class="fact-counter">
-            <div class="row">
-              <!-- Counter block-->
-              <div
-                class="counter-block-four col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
-              >
-                <div class="inner">
-                  <i class="icon flaticon-business-060-graph"></i>
-                  <div class="count-box">
-                    <span class="count-text" data-speed="3000" data-stop="4524"
-                      >0</span
-                    >
-                  </div>
-                  <span class="counter-title">Project Complete</span>
-                </div>
-              </div>
-
-              <!--Counter block-->
-              <div
-                class="counter-block-four col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <div class="inner">
-                  <i class="icon flaticon-business-035-helpline"></i>
-                  <div class="count-box">
-                    <span class="count-text" data-speed="3000" data-stop="1500"
-                      >0</span
-                    >
-                  </div>
-                  <span class="counter-title">HAPPY CLIENTS</span>
-                </div>
-              </div>
-
-              <!--Counter block-->
-              <div
-                class="counter-block-four col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
-                data-wow-delay="600ms"
-              >
-                <div class="inner">
-                  <i class="icon flaticon-business-020-hierarchy"></i>
-                  <div class="count-box">
-                    <span class="count-text" data-speed="3000" data-stop="2500"
-                      >0</span
-                    >
-                  </div>
-                  <span class="counter-title">AWWORD WINGING</span>
-                </div>
-              </div>
-
-              <!--Counter block-->
-              <div
-                class="counter-block-four col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
-                data-wow-delay="900ms"
-              >
-                <div class="inner">
-                  <i class="icon flaticon-business-048-coin"></i>
-                  <div class="count-box">
-                    <span class="count-text" data-speed="3000" data-stop="1000"
-                      >0</span
-                    >
-                  </div>
-                  <span class="counter-title">COMPANY TEAM</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Fun Fact Section -->
-
-      <!-- Offer Section -->
-      <section id="ia" class="offer-section-five">
-        <div class="auto-container">
-          <div class="row">
-            <!-- Content Column -->
-            <div class="image-column col-lg-6 col-md-12 col-sm-12">
-              <div class="inner-column">
-                <div class="image-box">
-                  <figure class="image">
-                    <img src="images/resource/image-4.jpg" alt="" />
-                  </figure>
-                  <div class="caption-box">
-                    <div class="icon-box">
-                      <a
-                        href="https://www.youtube.com/watch?v=Fvae8nxzVz4"
-                        class="play-now lightbox-image"
-                        ><i class="icon fa fa-play"></i
-                      ></a>
-                    </div>
-                    <div class="title-box">
-                      <h5 class="title">
-                        Automatiza tareas, analiza datos y potencia la toma de
-                        decisiones en tiempo real.
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Content Column -->
-            <div class="content-column col-lg-6 col-md-12">
-              <div class="inner-column">
-                <div class="sec-title">
-                  <span class="sub-title">IA + Automatizaciones</span>
-                  <h2>
-                    Inteligencia artificial y automatización aplicada a la
-                    gestión
-                  </h2>
-                  <div class="text">
-                    Menos tareas manuales, más control y decisiones inteligentes
-                    para tu negocio.
-                  </div>
-                </div>
-                <div class="info-box">
-                  <i class="icon flaticon-business-036-idea"></i>
-                  <h4 class="title">
-                    Tecnología inteligente que transforma datos en acciones
-                    concretas.
-                  </h4>
-                </div>
-                <ul class="list-style-two">
-                  <li>
-                    <i class="fa fa-check-circle"></i> Automatizamos tus
-                    procesos de forma personalizada
-                  </li>
-                  <li>
-                    <i class="fa fa-check-circle"></i> Optimizamos tu gestión
-                    con inteligencia artificial
-                  </li>
-                  <li>
-                    <i class="fa fa-check-circle"></i> Transformamos datos en
-                    decisiones automáticas
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
           <div class="sponsors-outer">
-            <!--clients carousel-->
-            <!-- MODIFICADO -->
-            <ul class="clients-carousel owl-carousel owl-theme">
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/nkbV4NuVgEuqgDeGEgV8y87bSH9eOJfsxPPAJiV6D70/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/aWNvbnM4LmNvbS9l/eHRlcm5hbC10YWwt/cmV2aXZvLXNoYWRv/dy10YWwtcmV2aXZv/LzEyMDAvZXh0ZXJu/YWwtYW1hem9uLXdl/Yi1zZXJ2aWNlcy1h/LXN1YnNpZGlhcnkt/b2YtYW1hem9uLXRo/YXQtcHJvdmlkZXMt/b24tZGVtYW5kLWNs/b3VkLWNvbXB1dGlu/Zy1sb2dvLXNoYWRv/dy10YWwtcmV2aXZv/LmpwZw"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/yAiDWbkXcgkvcUtGMtCvAMVW2SOzE9kDRdVDFHSzCSY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZlLzBl/LzBhL2ZlMGUwYTM4/NmY3NzFmZjAzODBl/MDBjMGVlY2Y5NWI5/LmpwZw"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/IYMLDPR8g106lY37oS4FGncZqw8lmf-j4RYA8IAp9ls/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy1tYXJjYXMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzA0L01pY3Jvc29m/dC1BenVyZS1Mb2dv/dGlwby0yMDE3LTIw/MTgtNjUweDM2Ni5q/cGc"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/b_yaTiWxJ7ELp-R0kKsrqxp-cesGgTzbAappp6SXLTE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YnJhbmRmZXRjaC5p/by9pZEJkRzhEZEtl/L3cvNDAwL2gvNDAw/L3RoZW1lL2Rhcmsv/aWNvbi5wbmc_Yz0x/YnhpZDY0TXVwN2Fj/emV3U0FZTVgmdD0x/NjY3NTczNjU3NDYx"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/W0ydBatb8UyDveBqgxdz0r04LV5qf6HG0sg-C4cfVFs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzIxMDY2OTUucG5n"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/MsmxRo9hb0_gPNHJhcGnxV0z-bbt53-jWG1ypkS-Wko/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzMyLzEvb3ZoLWxv/Z28tcG5nX3NlZWts/b2dvLTMyMjQzNy5w/bmc"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/c1cP4UMQqIZnRgNWS8OH-WcE6EKYHVSoK8TN4peYn2k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/Lzk5NjA2MC5wbmc"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/PTziIvOyE2wxbogXkTZrFAbt3FEMp2sRMy6EpIJU4pk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzI3LzEvYW5ndWxh/ci1sb2dvLXBuZ19z/ZWVrbG9nby0yNzI4/MTMucG5n"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/crenu3NYpLeEDhQpiUMA4vKhNRnFKKyqJnvRTXHq--s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuYml6aWJsLmNv/bS9zaXRlcy9kZWZh/dWx0L2ZpbGVzL244/bi1sb2dvLTQ4MC5w/bmc"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-            </ul>
-
-            <!-- COMENTADO -->
-            <!-- <ul class="clients-carousel owl-carousel owl-theme">
+            <ul class="clients-carousel style-two owl-carousel owl-theme">
               <li class="slide-item">
                 <a href="#"
                   ><img src="images/resource/client-1.png" alt=""
@@ -1666,12 +353,1284 @@
                   ><img src="images/resource/client-5.png" alt=""
                 /></a>
               </li>
-            </ul> -->
+            </ul>
+          </div>
+        </div>
+      </section>
+    End Clients Section -->
+
+      <!-- Why Choose Us Four-->
+      <section class="why-choose-us-four">
+        <div class="auto-container">
+          <div class="row">
+            <div class="tab-column col-xl-6">
+              <div class="sec-title">
+                <span class="sub-title">Sobre nosotros</span>
+                <h2>La evolución inteligente <br />en gestión de almaceness</h2>
+              </div>
+              <div class="tabs-box tabs-two">
+                <!--Tabs Box-->
+                <ul class="tab-buttons clearfix">
+                  <li class="tab-btn active-btn" data-tab="#tab1">
+                    Robusto
+                  </li>
+                  <li class="tab-btn" data-tab="#tab2">Integrado</li>
+                  <li class="tab-btn" data-tab="#tab3">Tecnológico</li>
+                </ul>
+
+                <div class="tabs-content">
+                  <!--Tab-->
+                  <div class="tab active-tab" id="tab1">
+                    <div class="row">
+                      <!-- Content Column -->
+                      <div class="content-column">
+                        <div class="inner-column">
+                          <div class="text">
+                            Optimiza cada movimiento dentro de tu centro de
+                            distribución con LiberaSOFT WMS, el sistema de
+                            gestión de depósitos diseñado para llevar la
+                            productividad, el control y la trazabilidad a un
+                            nuevo nivel.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Tab-->
+                  <div class="tab" id="tab2">
+                    <div class="row">
+                      <!-- Content Column -->
+                      <div class="content-column">
+                        <div class="inner-column">
+                          <div class="text">
+                            Desarrollado como un módulo nativo del LiberaSOFT
+                            ERP, este WMS puede funcionar perfectamente como
+                            solución independiente, ofreciendo toda su potencia
+                            sin necesidad de implementar el ERP completo.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Tab-->
+                  <div class="tab" id="tab3">
+                    <div class="row">
+                      <!-- Content Column -->
+                      <div class="content-column">
+                        <div class="inner-column">
+                          <div class="text">
+                            Con LiberaSOFT WMS tu operación se vuelve más ágil,
+                            precisa y predecible. El sistema integra tecnologías
+                            de vanguardia como colectores de datos, redes WiFi
+                            industriales, impresoras térmicas, códigos de
+                            barras, QR, RFID y mucho más, garantizando
+                            información en tiempo real y reduciendo al mínimo
+                            los errores operativos.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="content-column col-xl-6 col-lg-12 col-md-12 col-sm-12 order-2 wow fadeInLeft"
+              data-wow-delay="600ms"
+            >
+              <div class="inner-column">
+                <div class="image-box wow fadeInRight">
+                  <figure class="image overlay-anim">
+                    <img src="images/resource/why-us-6.jpg" alt="" />
+                  </figure>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-lg-7 col-xl-6">
+                    <ul class="list-style-three">
+                      <li>
+                        <figure class="icon-image">
+                          <img src="images/icons/checked.png" alt="" />
+                        </figure>
+                        Control total del inventario
+                      </li>
+                      <li>
+                        <figure class="icon-image">
+                          <img src="images/icons/checked.png" alt="" />
+                        </figure>
+                        Procesos 100% digitalizados
+                      </li>
+                      <li>
+                        <figure class="icon-image">
+                          <img src="images/icons/checked.png" alt="" />
+                        </figure>
+                        Reducción de errores y tiempos
+                      </li>
+                      <li>
+                        <figure class="icon-image">
+                          <img src="images/icons/checked.png" alt="" />
+                        </figure>
+                        Implementación flexible e independiente.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-5 col-lg-5 col-xl-6">
+                    <div class="experience">
+                      <strong>20</strong>
+                      <div class="text">Años de <br />Experiencia</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Emd Why Choose Us Three -->
+
+      <section id="modulos" class="features-section-seven">
+        <div class="auto-container">
+          <div class="row">
+            <!-- Title Column -->
+            <div class="title-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <div class="sec-title light">
+                  <span class="sub-title">MÓDULOS</span>
+                  <h2>
+                    Transformá tu almacén en un centro logístico de alta
+                    eficiencia.
+                  </h2>
+                  <div class="text">
+                    LiberaSOFT WMS te permite visualizar, controlar y optimizar
+                    cada etapa del flujo logístico: recepción, ubicación,
+                    picking, packing, reposición, inventarios, expedición y más.
+                    Todo en tiempo real, con datos precisos y decisiones
+                    inteligentes respaldadas por tecnología.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+              <div class="image-box wow fadeIn">
+                <figure class="image">
+                  <img src="images/resource/industries.jpg" alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div
+              class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            >
+              <div class="inner-box">
+                <div class="icon-box">
+                  <i class="icon flaticon-business-002-graph"></i>
+                </div>
+                <h4 class="title">
+                  <a href="#recepcion">Recepción</a>
+                </h4>
+                <div class="text">Precisión desde el primer paso</div>
+                <a href="#recepcion" class="read-more"
+                  >Ver más <i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            >
+              <div class="inner-box">
+                <div class="icon-box">
+                  <i class="icon flaticon-business-010-startup"></i>
+                </div>
+                <h4 class="title">
+                  <a href="#ubicacion">Ubicación</a>
+                </h4>
+                <div class="text">Inteligencia en cada movimiento</div>
+                <a href="#ubicacion" class="read-more"
+                  >Ver más <i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            >
+              <div class="inner-box">
+                <div class="icon-box">
+                  <i class="icon flaticon-business-030-settings"></i>
+                </div>
+                <h4 class="title">
+                  <a href="#picking">Picking</a>
+                </h4>
+                <div class="text">
+                  Preparación de pedidos con máxima eficiencia
+                </div>
+                <a href="#picking" class="read-more"
+                  >Ver más <i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            >
+              <div class="inner-box">
+                <div class="icon-box">
+                  <i class="icon flaticon-business-054-graph"></i>
+                </div>
+                <h4 class="title">
+                  <a href="#reposicion">Reposición</a>
+                </h4>
+                <div class="text">
+                  Abastecimiento inteligente para un flujo logístico continuo
+                </div>
+                <a href="#reposicion" class="read-more"
+                  >Ver más <i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            >
+              <div class="inner-box">
+                <div class="icon-box">
+                  <i class="icon flaticon-business-002-graph"></i>
+                </div>
+                <h4 class="title">
+                  <a href="#packing">Packing</a>
+                </h4>
+                <div class="text">
+                  Preparacion y consolidacion de pedidos con control total
+                </div>
+                <a href="#packing" class="read-more"
+                  >Ver más <i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            >
+              <div class="inner-box">
+                <div class="icon-box">
+                  <i class="icon flaticon-business-010-startup"></i>
+                </div>
+                <h4 class="title">
+                  <a href="#cross">Cross-Docking</a>
+                </h4>
+                <div class="text">
+                  Flujo directo de mercadería para acelerar tu operación
+                </div>
+                <a href="#cross" class="read-more"
+                  >Ver más <i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            >
+              <div class="inner-box">
+                <div class="icon-box">
+                  <i class="icon flaticon-business-030-settings"></i>
+                </div>
+                <h4 class="title">
+                  <a href="#expedicion">Expedición</a>
+                </h4>
+                <div class="text">
+                  Salida de mercadería con control absoluto y trazabilidad
+                  continua
+                </div>
+                <a href="#expedicion" class="read-more"
+                  >Ver más <i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            >
+              <div class="inner-box">
+                <div class="icon-box">
+                  <i class="icon flaticon-business-054-graph"></i>
+                </div>
+                <h4 class="title">
+                  <a href="#inventarios">Inventarios</a>
+                </h4>
+                <div class="text">
+                  Control total y precisión garantizada en cada conteo
+                </div>
+                <a href="#inventarios" class="read-more"
+                  >Ver más <i class="fa fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!--
+            <div class="row justify-content-center">
+              <div class="feature-block-seven dark col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                <div class="inner-box ">
+                  <div class="icon-box">
+                    <i class="icon flaticon-business-012-startup"></i>
+                  </div>
+                  <h6 class="title"><a href="page-service-details.html">Recepción</a></h6>
+                </div>
+              </div>
+      
+              <div class="feature-block-seven dark col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                <div class="inner-box ">
+                  <div class="icon-box">
+                    <i class="icon flaticon-business-010-startup"></i>
+                  </div>
+                  <h6 class="title"><a href="page-service-details.html">Ubicación</a></h6>
+                </div>
+              </div>
+      
+              <div class="feature-block-seven dark col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                <div class="inner-box ">
+                  <div class="icon-box">
+                    <i class="icon flaticon-business-030-settings"></i>
+                  </div>
+                  <h6 class="title"><a href="page-service-details.html"> Picking</a></h6>
+                </div>
+              </div>
+      
+              <div class="feature-block-seven dark col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                <div class="inner-box ">
+                  <div class="icon-box">
+                    <i class="icon flaticon-business-054-graph"></i>
+                  </div>
+                  <h6 class="title"><a href="page-service-details.html">Reposición</a></h6>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="feature-block-seven dark col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                <div class="inner-box ">
+                  <div class="icon-box">
+                    <i class="icon flaticon-business-012-startup"></i>
+                  </div>
+                  <h6 class="title"><a href="page-service-details.html">Recepción</a></h6>
+                </div>
+              </div>
+      
+              <div class="feature-block-seven dark col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                <div class="inner-box ">
+                  <div class="icon-box">
+                    <i class="icon flaticon-business-010-startup"></i>
+                  </div>
+                  <h6 class="title"><a href="page-service-details.html">Ubicación</a></h6>
+                </div>
+              </div>
+      
+              <div class="feature-block-seven dark col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                <div class="inner-box ">
+                  <div class="icon-box">
+                    <i class="icon flaticon-business-030-settings"></i>
+                  </div>
+                  <h6 class="title"><a href="page-service-details.html"> Picking</a></h6>
+                </div>
+              </div>
+      
+              <div class="feature-block-seven dark col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                <div class="inner-box ">
+                  <div class="icon-box">
+                    <i class="icon flaticon-business-054-graph"></i>
+                  </div>
+                  <h6 class="title"><a href="page-service-details.html">Reposición</a></h6>
+                </div>
+              </div>
+
+            </div>
+          -->
+        </div>
+      </section>
+
+      <!-- RECEPCION -->
+      <section class="why-choose-us-two" id="recepcion">
+        <div class="auto-container">
+          <div class="row">
+            <div
+              class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 wow fadeInLeft"
+              data-wow-delay="600ms"
+            >
+              <div class="inner-column">
+                <div class="sec-title">
+                  <span class="sub-title">Recepción</span>
+                  <h2>Precisión desde el primer paso</h2>
+                  <br />
+
+                  <!-- TEXTO CORTADO -->
+                  <div
+                    class="text-preview"
+                    data-fulltext="
+La eficiencia logística comienza en la recepción, y LiberaSOFT WMS convierte este proceso en una operación rápida, guiada y sin errores. Con el uso de colectores de datos, el sistema relaciona cada artículo recibido con su orden de compra previamente cargada, garantizando que lo que ingresa al almacén sea exactamente lo que fue solicitado.
+
+El operario simplemente escanea los productos y el WMS valida automáticamente cantidades, códigos, lotes, series y cualquier otra información necesaria. Cada lectura se registra en tiempo real, asegurando total trazabilidad desde el primer segundo.
+
+Una vez confirmada la recepción, la mercadería queda ingresada en el sistema y lista para ser almacenada, habilitando el proceso de ubicación con total precisión. No hay dobles cargas, no hay papeles, no hay errores: solo un flujo digital, inteligente y totalmente controlado.
+
+Con LiberaSOFT WMS, tu almacén recibe mercadería con la misma exactitud con la que la despacha. Una logística más ágil comienza desde el ingreso.
+"
+                  >
+                    La eficiencia logística comienza en la recepción, y
+                    LiberaSOFT WMS convierte este proceso en una operación
+                    rápida, guiada y sin errores. Con el uso de colectores de
+                    datos, el sistema relaciona cada artículo recibido con su
+                    orden de compra previamente cargada, garantizando que lo que
+                    ingresa al almacén sea exactamente lo que fue solicitado....
+                  </div>
+
+                  <!-- BOTON -->
+                  <button class="btn-saber-mas theme-btn btn-style-one">
+                    Saber más
+                  </button>
+
+                  <!--Skills-->
+                </div>
+              </div>
+            </div>
+            <!-- Image Column -->
+            <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+              <div class="image-box wow fadeInRight">
+                <figure class="image overlay-anim">
+                  <img
+                    src="images/resource/recepcion.jpg"
+                    alt=""
+                    style="width: 876px; height: 557px"
+                  />
+<!--
+                  <a
+                    href="https://www.youtube.com/watch?v=Fvae8nxzVz4"
+                    class="play-btn lightbox-image"
+                    ><i class="icon fa fa-play"></i
+                  ></a>
+-->
+                </figure>
+              </div>
+            </div>
+
+            <!-- Image Column -->
+            <!-- <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+              <div class="image-box wow fadeInRight">
+                <figure class="image overlay-anim">
+                  <img src="images/resource/why-us-3.jpg" alt="" />
+                  <a
+                    href="https://www.youtube.com/watch?v=Fvae8nxzVz4"
+                    class="play-btn lightbox-image"
+                    ><i class="icon fa fa-play"></i
+                  ></a>
+                </figure>
+              </div>
+            </div> -->
           </div>
         </div>
       </section>
 
-      <!-- End Offer Section -->
+      <!-- AGREGADO -->
+      <!-- LiberaSOFT WMS Section -->
+
+      <!-- pORQUE 
+              <div class="sec-title">
+                <h3>¿Por qué elegir LiberaSOFT WMS?</h3>
+              </div>
+
+
+              <ul class="list-style-three mb-50">
+                <li>
+                  <strong>Control total del inventario:</strong> Trazabilidad
+                  completa desde la recepción hasta la expedición.
+                </li>
+                <li>
+                  <strong>Procesos 100% digitalizados:</strong> Eliminá
+                  planillas y tareas manuales; todo se ejecuta desde colectores
+                  de datos y dispositivos móviles.
+                </li>
+                <li>
+                  <strong>Reducción de errores y tiempos:</strong> Lectura
+                  automática, validaciones inteligentes y procesos guiados paso
+                  a paso.
+                </li>
+                <li>
+                  <strong>Integración nativa con LiberaSOFT ERP:</strong>
+                  Gestión contable, impositiva, comercial y logística en un solo
+                  ecosistema (opcional).
+                </li>
+                <li>
+                  <strong>Implementación flexible e independiente:</strong>
+                  Ideal para empresas que necesitan un WMS robusto sin cambiar
+                  su entorno actual.
+                </li>
+                <li>
+                  <strong>Escalabilidad y crecimiento:</strong> Adaptable a
+                  depósitos pequeños, medianos y grandes operaciones
+                  multialmacén.
+                </li>
+              </ul>
+-->
+      <!-- TRANSFORMA -->
+
+      <!-- UBICACION -->
+      <section class="about-section-seven pt-0" id="ubicacion">
+        <div class="auto-container">
+          <div class="row">
+            <div
+              class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-lg-2 wow fadeInLeft"
+            >
+              <div class="inner-column">
+                <div class="sec-title">
+                  <span class="sub-title">Ubicación</span>
+                  <h2>Inteligencia en cada movimiento</h2>
+
+                  <div
+                    class="text-preview"
+                    data-fulltext="
+Una vez recibida la mercadería, LiberaSOFT WMS guía al operario en el proceso de ubicación para garantizar que cada producto quede almacenado en el lugar óptimo. Con el uso de colectores de datos y validaciones en tiempo real, el sistema transforma esta tarea en un flujo ágil, controlado y totalmente libre de errores.
+
+El WMS permite que un mismo producto cuente con múltiples sectores de ubicación, manteniendo una distribución flexible y eficiente dentro del depósito. Al momento de ubicar, el sistema analiza automáticamente variables clave como fechas de vencimiento, número de lote, rotación, stock existente y disponibilidad física de cada ubicación.
+
+Con esta información, el sistema sugiere al usuario el sector ideal, priorizando orden, eficiencia y cumplimiento de normas como FIFO, FEFO u otros criterios definidos por la operación. El operario solo debe escanear la ubicación indicada y confirmar la operación, dejando todo registrado al instante.
+
+El resultado: una logística más inteligente, productos correctamente organizados y un inventario siempre confiable. LiberaSOFT WMS convierte la simple acción de ubicar en un proceso estratégico y totalmente optimizado.
+"
+                  >
+                    Una vez recibida la mercadería, LiberaSOFT WMS guía al
+                    operario en el proceso de ubicación para garantizar que cada
+                    producto quede almacenado en el lugar óptimo. Con el uso de
+                    colectores de datos y validaciones en tiempo real, el
+                    sistema transforma esta tarea en un flujo ágil, controlado y
+                    totalmente libre de errores...
+                  </div>
+
+                  <button class="btn-saber-mas theme-btn btn-style-one">
+                    Saber más
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Image Column -->
+            <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+              <div class="image-box wow fadeInRight">
+                <figure class="image overlay-anim">
+                  <img
+                    src="images/resource/ubicacion.jpg"
+                    style="width: 876px; height: 557px"
+                    alt=""
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="why-choose-us-two">
+    <div class="auto-container">
+      <div class="row">
+        <div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 wow fadeInLeft" data-wow-delay="600ms">
+          <div class="inner-column">
+            <div class="sec-title">
+              <span class="sub-title">Picking</span>
+              <h2>Preparación de pedidos con máxima eficiencia</h2>
+              <br>
+              <p>
+                En LiberaSOFT WMS, el proceso de picking se convierte en una
+                operación inteligente, guiada y completamente optimizada. Los
+                trabajos son asignados por un encargado y se envían
+                automáticamente a los colectores de datos utilizados por los
+                armadores de pedidos, garantizando un flujo ordenado y sin
+                interrupciones.
+              </p>
+              <p>
+                Desde el dispositivo móvil, el operario accede a la aplicación
+                de picking, donde el sistema le indica la ruta más eficiente
+                para recorrer el depósito, reduciendo tiempos y mejorando la
+                productividad. Cada paso está pensado para minimizar
+                desplazamientos, evitar congestiones y acelerar la preparación
+                de pedidos
+              </p>
+              <p>
+                Además, el WMS selecciona automáticamente el lote más adecuado
+                para extraer la mercadería, basándose en criterios como fecha
+                de vencimiento, orden de ingreso del lote, rotación y otras
+                reglas definidas por la empresa. El operario solo debe
+                escanear, confirmar y continuar: el sistema valida todo en
+                tiempo real, evitando errores y asegurando una trazabilidad
+                perfecta.
+              </p>
+              <p>
+                El resultado es un proceso de picking rápido, confiable y
+                completamente optimizado, donde cada pedido se prepara de
+                manera consistente y precisa, sin retrabajos ni pérdidas de
+                tiempo.
+              </p>
+              <p>
+                LiberaSOFT WMS convierte el picking en un flujo inteligente
+                que impulsa la eficiencia logística y mejora la experiencia
+                del cliente final.
+              </p>            
+            </div>
+
+            <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+              <div class="image-box wow fadeInRight">
+                <figure class="image overlay-anim">
+                  <img src="images/resource/about-14.jpg" alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- PICKING -->
+      <section class="why-choose-us-two" id="picking">
+        <div class="auto-container">
+          <div class="row">
+            <div
+              class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 wow fadeInLeft"
+              data-wow-delay="600ms"
+            >
+              <div class="inner-column">
+                <div class="sec-title">
+                  <span class="sub-title">Picking</span>
+                  <h2>Preparación de pedidos con máxima eficiencia</h2>
+                  <div
+                    class="text-preview"
+                    data-fulltext="En LiberaSOFT WMS, el proceso de picking se convierte en una operación inteligente, guiada y completamente optimizada. 
+Los trabajos son asignados por un encargado y se envían automáticamente a los colectores de datos utilizados por los armadores de pedidos, garantizando un flujo ordenado y sin interrupciones.
+
+Desde el dispositivo móvil, el operario accede a la aplicación de picking, donde el sistema le indica la ruta más eficiente para recorrer el depósito, reduciendo tiempos y mejorando la productividad. Cada paso está pensado para minimizar desplazamientos, evitar congestiones y acelerar la preparación de pedidos.
+
+Además, el WMS selecciona automáticamente el lote más adecuado para extraer la mercadería, basándose en criterios como fecha de vencimiento, orden de ingreso del lote, rotación y otras reglas definidas por la empresa. El operario solo debe escanear, confirmar y continuar: el sistema valida todo en tiempo real, evitando errores y asegurando una trazabilidad perfecta.
+
+El resultado es un proceso de picking rápido, confiable y completamente optimizado, donde cada pedido se prepara de manera consistente y precisa, sin retrabajos ni pérdidas de tiempo.
+
+LiberaSOFT WMS convierte el picking en un flujo inteligente que impulsa la eficiencia logística y mejora la experiencia del cliente final."
+                  >
+                    En LiberaSOFT WMS, el proceso de picking se convierte en una
+                    operación inteligente, guiada y completamente optimizada.
+                    Los trabajos son asignados por un encargado y se envían
+                    automáticamente a los colectores de datos utilizados por los
+                    armadores de pedidos, garantizando un flujo ordenado y sin
+                    interrupciones...
+                  </div>
+
+                  <button class="btn-saber-mas theme-btn btn-style-one">
+                    <span class="btn-title">Saber más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Image Column -->
+            <!-- <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+              <div class="image-box wow fadeInRight">
+                <figure class="image overlay-anim">
+                  <img src="images/resource/why-us-3.jpg" alt="" />
+                  <a
+                    href="https://www.youtube.com/watch?v=Fvae8nxzVz4"
+                    class="play-btn lightbox-image"
+                    ><i class="icon fa fa-play"></i
+                  ></a>
+                </figure>
+              </div>
+            </div> -->
+            <!-- Image Column -->
+            <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+              <div class="image-box wow fadeInRight">
+                <figure class="image overlay-anim">
+                  <img
+                    src="images/resource/picking.jpg"
+                    alt=""
+                    style="width: 876px; height: 557px"
+                  />
+<!--
+                  <a
+                    href="https://www.youtube.com/watch?v=Fvae8nxzVz4"
+                    class="play-btn lightbox-image"
+                    ><i class="icon fa fa-play"></i
+                  ></a>
+                    -->
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REPOSICION -->
+      <section class="about-section-three" id="reposicion">
+        <div class="auto-container">
+          <div class="row">
+            <div
+              class="content-column col-lg-6 col-md-12 col-sm-12 order-lg-1 wow fadeInRight"
+              data-wow-delay="600ms"
+            >
+              <div class="inner-column">
+                <div class="sec-title">
+                  <span class="sub-title">Reposición</span>
+                  <h2>
+                    Abastecimiento inteligente para un flujo logístico continuo
+                  </h2>
+
+                  <div
+                    class="text-preview"
+                    data-fulltext="La reposición es clave para mantener la eficiencia en el picking y evitar quiebres de stock en las ubicaciones de picking. Con LiberaSOFT WMS, este proceso se vuelve totalmente digital, guiado y en tiempo real gracias al uso de colectores de datos.
+
+El sistema monitorea constantemente los niveles de inventario y detecta automáticamente las ubicaciones que están por debajo del stock mínimo definido. Cuando se requiere una reposición, el WMS genera la tarea y guía al operario paso a paso desde su dispositivo móvil.
+
+El sistema indica desde qué ubicación tomar la mercadería, seleccionando siempre el lote adecuado según fecha de vencimiento, orden de ingreso, rotación u otros criterios definidos por la empresa. Luego, dirige al operario hacia la ubicación de destino para completar la reposición de manera rápida y precisa.
+
+El resultado es un almacén siempre abastecido, un picking más fluido y una operación sin demoras ni improvisaciones. Cada movimiento queda registrado en el momento, garantizando trazabilidad total y un inventario siempre actualizado.
+
+LiberaSOFT WMS convierte la reposición en un proceso inteligente que asegura continuidad operativa y máxima eficiencia en toda la cadena logística."
+                  >
+                    La reposicón es clave para mantener la eficiencia en el
+                    picking y evitar quiebres de stock en las ubicaciones de
+                    picking. Con LiberaSOFT WMS, este proceso se vuelve
+                    totalmente digital, guiado y en tiempo real gracias al uso
+                    de colectores de datos...
+                  </div>
+
+                  <button class="btn-saber-mas theme-btn btn-style-one">
+                    <span class="btn-title">Saber más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Image Column -->
+            <div class="image-column col-lg-6 col-md-12 col-sm-12 order-lg-0">
+              <div class="inner-column wow fadeInLeft">
+                <figure class="image-1 overlay-anim wow fadeInUp">
+                  <img src="images/resource/repositor.jpg" alt="" />
+                </figure>
+                <figure class="image-2 overlay-anim wow fadeInRight">
+                  <img src="images/resource/about-6.jpg" alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PACKING -->
+      <section class="testimonial-section pt-0" id="packing">
+        <div class="auto-container">
+          <div class="sec-title">
+            <span class="sub-title">Packing</span>
+            <h2>
+              Preparación y consolidación <br />de pedidos con control total
+            </h2>
+          </div>
+
+          <div class="testimonials">
+            <div class="swiper-container testimonial-content">
+              <div class="swiper-wrapper">
+                <div class="testimonial-block swiper-slide">
+                  <div class="row">
+                    <div class="content-column col-lg-6 col-md-12">
+                      <!-- TEXTO CORTADO -->
+                      <div
+                        class="text-preview"
+                        data-title="Packing"
+                        data-fulltext="
+El proceso de packing en LiberaSOFT WMS garantiza que cada pedido salga del depósito de forma correcta, completa y perfectamente documentada. Desde los colectores de datos, el operario accede a las tareas asignadas y realiza toda la preparación de bultos de manera 100% digital y en tiempo real.
+
+El sistema guía al usuario para validar cada artículo previamente pickeado, asegurando que las cantidades sean correctas y que los productos pertenecen al pedido indicado. Además, permite consolidar mercadería en cajas, pallets o cualquier tipo de bulto, registrando cada unidad y su trazabilidad.
+
+Durante el proceso, el WMS controla información clave como lotes, fechas de vencimiento, series y cualquier otro dato relevante, evitando errores y garantizando cumplimiento normativo. Una vez finalizado el packing, el sistema puede generar automáticamente etiquetas, documentación de despacho y códigos de tracking, listos para la etapa de expedición.
+
+El resultado es un proceso ágil, ordenado y totalmente confiable, donde cada pedido queda correctamente armado y verificado antes de salir del depósito.
+
+LiberaSOFT WMS convierte el packing en una etapa precisa, segura y altamente eficiente, mejorando la calidad del servicio y la satisfacción del cliente final.
+"
+                      >
+                        El proceso de packing en LiberaSOFT WMS garantiza que
+                        cada pedido salga del depósito de forma correcta,
+                        completa y perfectamente documentada. Desde los
+                        colectores de datos, el operario accede a las tareas
+                        asignadas y realiza toda la preparación de bultos de
+                        manera 100% digital y en tiempo real...
+                      </div>
+
+                      <!-- BOTON -->
+                      <button class="btn-saber-mas theme-btn btn-style-one">
+                        Saber más
+                      </button>
+                    </div>
+
+                    <div class="image-column col-lg-6 col-md-12">
+                      <figure class="image">
+                        <img src="images/resource/testimonial-1.png" alt="" />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Thumbs -->
+            <div class="swiper-container testimonial-thumbs">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial-thumb">
+                  <figure class="image">
+                    <img src="images/resource/testi-thumb-2.jpg" alt="" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CROSS DOCKING -->
+      <section class="about-section" id="cross">
+        <div class="auto-container">
+          <div class="row">
+            <div
+              class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-lg-2 wow fadeInRight"
+              data-wow-delay="600ms"
+            >
+              <div class="inner-column">
+                <div class="sec-title">
+                  <span class="sub-title">Cross-Docking</span>
+                  <h2>
+                    Flujo directo de mercadería para acelerar tu operación
+                  </h2>
+                  <div
+                    class="text-preview"
+                    data-fulltext="Con LiberaSOFT WMS, el proceso de Cross-Docking se vuelve una operación ágil, precisa y completamente digital, diseñada para minimizar tiempos de almacenamiento y acelerar la entrega de productos. Todo se gestiona mediante colectores de datos, garantizando control en tiempo real y máxima eficiencia.
+
+Cuando una mercadería ingresa al depósito destinada directamente a un pedido o destino específico, el sistema identifica automáticamente que corresponde a un proceso de cross-docking. El operario recibe la tarea en su dispositivo móvil y el WMS lo guía para realizar la verificación necesaria: producto, lote, fecha de vencimiento, cantidades y destino asignado.
+
+En lugar de ubicar la mercadería en el stock general, el sistema indica su movimiento directo hacia el área de expedición, zona de preparación o muelle correspondiente. Esta trazabilidad inmediata elimina pasos innecesarios, reduce costos operativos y optimiza los tiempos de entrega.
+
+El resultado es un flujo logístico más dinámico, con menor manipulación, menos espacio requerido y mayor velocidad de respuesta para clientes, sucursales o líneas de producción.
+
+LiberaSOFT WMS transforma el cross-docking en una operación rápida, guiada y totalmente integrada, permitiendo que la mercadería fluya de ingreso a salida sin detenerse."
+                  >
+                    Con LiberaSOFT WMS, el proceso de Cross-Docking se vuelve
+                    una operación ágil, precisa y completamente digital,
+                    diseñada para minimizar tiempos de almacenamiento y acelerar
+                    la entrega de productos. Todo se gestiona mediante
+                    colectores de datos, garantizando control en tiempo real y
+                    máxima eficiencia...
+                  </div>
+
+                  <button class="btn-saber-mas theme-btn btn-style-one">
+                    <span class="btn-title">Saber más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Image Column -->
+            <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+              <div class="inner-column wow fadeInLeft">
+                <figure class="image-1 overlay-anim wow fadeInUp">
+                  <img src="images/resource/cross_docking.jpg" alt="" />
+                </figure>
+                <figure class="image-2 overlay-anim wow fadeInRight">
+                  <img src="images/resource/about-2.jpg" alt="" />
+                </figure>
+                <!--
+            <div class="experience bounce-y">
+							<div class="inner">
+								<i class="icon flaticon-business-018-startup"></i>
+								<div class="text"><strong>30+</strong> Years of <br>experience</div>
+							</div>
+						</div>
+          -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPEDICION -->
+      <section class="about-section-four" id="expedicion">
+        <div class="auto-container">
+          <div class="row">
+            <div
+              class="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2 wow fadeInLeft"
+              data-wow-delay="600ms"
+            >
+              <div class="inner-column">
+                <div class="sec-title">
+                  <span class="sub-title">Expedición</span>
+                  <h2>
+                    Salida de mercadería con control absoluto y trazabilidad
+                    continua
+                  </h2>
+                  <br />
+
+                  <div
+                    class="text-preview"
+                    data-title="Expedición"
+                    data-fulltext="
+La expedición es el último paso dentro del depósito, y LiberaSOFT WMS la convierte en una operación ágil, segura y completamente digital. Desde los colectores de datos, el operario accede a las órdenes listas para despachar y valida cada bulto previamente preparado en el proceso de packing, asegurando que todo esté correcto antes de salir del almacén.
+
+El sistema guía al usuario en tiempo real para verificar códigos de bulto, cantidades, productos, lotes, fechas de vencimiento y destino, evitando errores y garantizando cumplimiento normativo y contractual. Cada confirmación queda registrada de inmediato, asegurando una trazabilidad perfecta desde el depósito hasta el cliente final.
+
+Una vez consolidada la carga, LiberaSOFT WMS se integra de forma nativa con el módulo “Última Milla” del LiberaSOFT ERP, permitiendo continuar el seguimiento del pedido durante el transporte y la entrega final. Esta integración crea un flujo logístico completo: del almacén al despacho, al transporte y hasta la entrega en destino, con visibilidad total en cada etapa.
+
+El resultado es una expedición organizada, confiable y sin espacio para errores, donde cada salida queda documentada y conectada con el siguiente eslabón de la cadena.
+
+Con LiberaSOFT WMS, la expedición se convierte en un proceso preciso, rápido y totalmente trazable, potenciando la eficiencia operativa y mejorando la experiencia del cliente desde el depósito hasta su puerta.
+"
+                  >
+                    La expedición es el último paso dentro del depósito, y
+                    LiberaSOFT WMS la convierte en una operación ágil, segura y
+                    completamente digital. Desde los colectores de datos, el
+                    operario accede a las órdenes listas para despachar y valida
+                    cada bulto previamente preparado en el proceso de packing...
+                  </div>
+
+                  <button class="btn-saber-mas theme-btn btn-style-one">
+                    Saber más
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column wow fadeInRight">
+                <span class="float-text">Liberasoft</span>
+
+                <figure class="image-1 overlay-anim wow fadeInUp">
+                  <img src="images/resource/about-7.jpg" alt="" />
+                </figure>
+
+                <figure class="image-2 overlay-anim wow fadeInRight">
+                  <img src="images/resource/about-8.jpg" alt="" />
+                </figure>
+
+                <div class="icon-box">
+                  <img src="images/resource/icon-logo-3.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INVENTARIOS -->
+      <section class="about-section-ten" id="inventarios">
+        <div class="auto-container">
+          <div class="row">
+            <div
+              class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-lg-2 wow fadeInRight"
+              data-wow-delay="600ms"
+            >
+              <div class="inner-column">
+                <div class="sec-title">
+                  <span class="sub-title">Inventarios</span>
+                  <h2>Control total y precisión garantizada en cada conteo</h2>
+
+                  <div
+                    class="text-preview"
+                    data-fulltext="
+El módulo de Inventarios de LiberaSOFT WMS permite mantener un control absoluto del stock mediante procesos 100% digitales, ágiles y guiados desde colectores de datos. Sin planillas, sin duplicaciones y sin interrupciones en la operación.
+
+El sistema ofrece diferentes modalidades de inventario: cíclicos, totales, por sectores, por familias de productos o por ubicaciones críticas, permitiendo adaptar el control a las necesidades reales del depósito. Cada tarea de inventario es asignada al operario y recibida directamente en su dispositivo móvil, asegurando un flujo ordenado desde el inicio.
+
+Durante el conteo, el operario escanea productos, ubicaciones y lotes, mientras el WMS valida la información en tiempo real. Esto garantiza una precisión total y elimina errores típicos de los procesos manuales. Además, el sistema registra datos clave como lotes, fechas de vencimiento, series, ubicaciones y cantidades, manteniendo la trazabilidad completa del inventario.
+
+Al finalizar, LiberaSOFT WMS compara automáticamente lo contado con el stock teórico, generando diferencias, alertas y reportes instantáneos. Este análisis permite tomar decisiones rápidas y evitar desajustes que afecten la operación diaria, el picking o la reposición.
+
+El resultado es un inventario siempre confiable, actualizado y alineado con la realidad operativa del depósito.
+
+Con LiberaSOFT WMS, los inventarios dejan de ser una tarea pesada para convertirse en un proceso inteligente, rápido y totalmente preciso.
+"
+                  >
+                    El módulo de Inventarios de LiberaSOFT WMS permite mantener
+                    un control absoluto del stock mediante procesos 100%
+                    digitales, ágiles y guiados desde colectores de datos. Sin
+                    planillas, sin duplicaciones y sin interrupciones en la
+                    operación...
+                  </div>
+
+                  <button class="btn-saber-mas theme-btn btn-style-one">
+                    Saber más
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+              <div class="inner-column wow fadeInLeft">
+                <figure class="image-1 overlay-anim wow fadeInUp">
+                  <img
+                    src="images/resource/inventario_01.jpg"
+                    alt=""
+                    style="width: 299px; height: 575px"
+                  />
+                </figure>
+
+                <figure class="image-2 overlay-anim wow fadeInRight">
+                  <img src="images/resource/about3-2.png" alt="" />
+                </figure>
+
+                <div class="experience">
+                  <div class="inner">
+                    <div class="text"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End LiberaSOFT WMS Section -->
+
+      <!-- Services Section Three 
+      <section id="services" class="services-section-three">
+        <div class="auto-container">
+          <div class="sec-title text-center">
+            <span class="sub-title">Services we’re offering</span>
+            <h2>
+              High quality products and services <br />that we stand behind
+            </h2>
+          </div>
+          <div class="outer-box">
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 justify-content-center"
+            >
+              <div class="service-block-three col wow fadeInUp">
+                <div class="inner-box">
+                  <i class="icon flaticon-business-002-graph"></i>
+                  <h4 class="title">
+                    <a href="page-service-details.html"
+                      >Data <br />Visualization</a
+                    >
+                  </h4>
+                  <div class="text">
+                    Providing the solutions for tech business
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="service-block-three col wow fadeInUp"
+                data-wow-delay="200ms"
+              >
+                <div class="inner-box">
+                  <i class="icon flaticon-business-010-startup"></i>
+                  <h4 class="title">
+                    <a href="page-service-details.html"
+                      >UI/UX <br />Designing</a
+                    >
+                  </h4>
+                  <div class="text">
+                    Providing the solutions for tech business
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="service-block-three col wow fadeInUp"
+                data-wow-delay="400ms"
+              >
+                <div class="inner-box">
+                  <i class="icon flaticon-business-030-settings"></i>
+                  <h4 class="title">
+                    <a href="page-service-details.html"
+                      >Digital <br />Marketing</a
+                    >
+                  </h4>
+                  <div class="text">
+                    Providing the solutions for tech business
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="service-block-three col wow fadeInUp"
+                data-wow-delay="600ms"
+              >
+                <div class="inner-box">
+                  <i class="icon flaticon-business-045-stationery"></i>
+                  <h4 class="title">
+                    <a href="page-service-details.html"
+                      >Marketing <br />Strategy</a
+                    >
+                  </h4>
+                  <div class="text">
+                    Providing the solutions for tech business
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="service-block-three col wow fadeInUp"
+                data-wow-delay="800ms"
+              >
+                <div class="inner-box">
+                  <i class="icon flaticon-business-054-graph"></i>
+                  <h4 class="title">
+                    <a href="page-service-details.html">Data <br />Analysis</a>
+                  </h4>
+                  <div class="text">
+                    Providing the solutions for tech business
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     End Services Section Three -->
+
+      <!-- About Section Seven -->
+
+      <!--Emd About Section Seven -->
+
+      <!-- Call To Action Two 
+      <section
+        class="call-to-action-six"
+        style="background-image: url(./images/background/12.jpg)"
+      >
+        <div class="auto-container">
+          <div class="title-box">
+            <h1 class="title">
+              IT Solutions & Services Right <br />At Your Fingertips
+            </h1>
+            <a href="page-services.html" class="theme-btn btn-style-one"
+              ><span class="btn-title">DISCOVER MORE</span></a
+            >
+          </div>
+        </div>
+      </section>
+     End Call To Action Two -->
+
+      <!-- Pricing Section
+      <section class="pricing-section-two">
+        <div class="auto-container">
+          <div class="sec-title text-center">
+            <span class="sub-title">OUR PRICHING</span>
+            <h2>Best pricing plans ever <br />that fits for you</h2>
+          </div>
+          <div class="row">
+            <div class="pricing-block-two col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <div class="title-box">
+                  <h3 class="title">Basic plan</h3>
+                  <div class="text">Starts at $14. Includes 2 users</div>
+                </div>
+                <h2 class="price"><sup>$</sup>39<sub>/ Month</sub></h2>
+                <div class="sub-title">All Basic services include:</div>
+                <ul class="features">
+                  <li>Full Access to the Library</li>
+                  <li>Complete Documentation</li>
+                  <li>24/7 Free Support</li>
+                  <li>Cloud Storage Backup</li>
+                </ul>
+                <a href="#" class="theme-btn btn-style-one"
+                  ><span class="btn-title">Explore More</span></a
+                >
+              </div>
+            </div>
+
+            <div class="pricing-block-two col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <div class="title-box">
+                  <h3 class="title">Business Plan</h3>
+                  <div class="text">Starts at $14. Includes 2 users</div>
+                </div>
+                <h2 class="price"><sup>$</sup>49<sub>/ Month</sub></h2>
+                <div class="sub-title">All Basic services include:</div>
+                <ul class="features">
+                  <li>24/7 system monitoring</li>
+                  <li>Security management</li>
+                  <li>Patch management</li>
+                  <li>Remote support</li>
+                </ul>
+                <a href="#" class="theme-btn btn-style-one"
+                  ><span class="btn-title">Explore More</span></a
+                >
+              </div>
+            </div>
+
+            <div class="pricing-block-two col-lg-4 col-md-6 col-sm-12">
+              <div class="inner-box">
+                <div class="title-box">
+                  <h3 class="title">Premium Plan</h3>
+                  <div class="text">Starts at $14. Includes 2 users</div>
+                </div>
+                <h2 class="price"><sup>$</sup>99<sub>/ Month</sub></h2>
+                <div class="sub-title">All Basic services include:</div>
+                <ul class="features">
+                  <li>24/7 system monitoring</li>
+                  <li>Security management</li>
+                  <li>Patch management</li>
+                  <li>Remote support</li>
+                </ul>
+                <a href="#" class="theme-btn btn-style-one"
+                  ><span class="btn-title">Explore More</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     End Pricing Section -->
+
+      <!-- About Section 
+      <section class="about-section-eight">
+        <div class="auto-container">
+          <div class="row">
+            <div class="content-column col-lg-7 col-md-12 order-lg-2">
+              <div class="inner-column">
+                <div class="sec-title light">
+                  <span class="sub-title">LEARN MORE US</span>
+                  <h2>Change your business goal look with us.</h2>
+                  <h4>
+                    We have 35+ years of experience. We offer marketing and
+                    consulting services
+                  </h4>
+                  <div class="text">
+                    Lorem ipsum dolor sit amet, consectetur notted adipisicing
+                    elit sed do eiusmod tempor incididunt.
+                  </div>
+                </div>
+                <div class="info-box-list">
+                  <div class="info-box">
+                    <i class="icon flaticon-business-036-idea"></i>
+                    <h4 class="title">Installed <br />Facility</h4>
+                  </div>
+                  <div class="info-box">
+                    <i class="icon flaticon-business-054-graph"></i>
+                    <h4 class="title">Rise your <br />Business</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="image-column col-lg-5 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <div class="image-box">
+                  <figure class="image">
+                    <img src="images/resource/image-5.jpg" alt="" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+   End About Section -->
 
       <!-- Team Section 
       <section class="team-section">
@@ -1784,284 +1743,36 @@
       </section>
     End Team Section -->
 
-      <!-- Integration Section -->
-      <section class="clients-section border-top" id="integraciones">
-        <div class="auto-container">
-          <div class="about-section-eight">
-            <div class="row">
-              <!-- Content Column -->
-              <div class="content-column col-lg-7 col-md-12 order-lg-2">
-                <div class="inner-column">
-                  <div class="sec-title light">
-                    <span class="sub-title">INTEGRACIONES</span>
-                    <h2>Plataforma abierta a integraciones</h2>
-                    <h4>
-                      Conectá LiberaSOFT ERP con otros sistemas mediante APIs y
-                      servicios integrados.
-                    </h4>
-                    <div class="text">
-                      Diseñada para integrarse fácilmente con soluciones propias
-                      y de terceros..
-                    </div>
-                  </div>
-
-                  <!-- MODIFICADO -->
-                  <div class="listas-integraciones">
-                    <ul class="list-style-two">
-                      <li class="">
-                        <i class="fa fa-check-circle"></i> Mercado Pago
-                      </li>
-                      <li class="">
-                        <i class="fa fa-check-circle"></i> Mercado Libre
-                      </li>
-                      <li class="">
-                        <i class="fa fa-check-circle"></i> PowerBI
-                      </li>
-                      <li class="">
-                        <i class="fa fa-check-circle"></i> Click View
-                      </li>
-                    </ul>
-
-                    <ul class="list-style-two">
-                      <li class="">
-                        <i class="fa fa-check-circle"></i> StartPOS
-                      </li>
-                      <li class="">
-                        <i class="fa fa-check-circle"></i> PrestaShop
-                      </li>
-                      <li class="">
-                        <i class="fa fa-check-circle"></i> WooCommerce
-                      </li>
-                    </ul>
-                  </div>
-
-                  <!-- COMENTADO -->
-                  <!-- <div class="info-box-list">
-                    <div class="info-box">
-                      <i class="icon flaticon-business-036-idea"></i>
-                      <h4 class="title">Installed <br />Facility</h4>
-                    </div>
-                    <div class="info-box">
-                      <i class="icon flaticon-business-054-graph"></i>
-                      <h4 class="title">Rise your <br />Business</h4>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-
-              <!-- Content Column -->
-              <div class="image-column col-lg-5 col-md-12 col-sm-12">
-                <div class="inner-column">
-                  <div class="image-box">
-                    <figure class="image">
-                      <img src="images/resource/image-5.jpg" alt="" />
-                    </figure>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Sponsors Outer 
-          <div class="sponsors-outer">
-
-            <ul class="clients-carousel owl-carousel owl-theme">
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/nkbV4NuVgEuqgDeGEgV8y87bSH9eOJfsxPPAJiV6D70/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/aWNvbnM4LmNvbS9l/eHRlcm5hbC10YWwt/cmV2aXZvLXNoYWRv/dy10YWwtcmV2aXZv/LzEyMDAvZXh0ZXJu/YWwtYW1hem9uLXdl/Yi1zZXJ2aWNlcy1h/LXN1YnNpZGlhcnkt/b2YtYW1hem9uLXRo/YXQtcHJvdmlkZXMt/b24tZGVtYW5kLWNs/b3VkLWNvbXB1dGlu/Zy1sb2dvLXNoYWRv/dy10YWwtcmV2aXZv/LmpwZw"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/yAiDWbkXcgkvcUtGMtCvAMVW2SOzE9kDRdVDFHSzCSY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZlLzBl/LzBhL2ZlMGUwYTM4/NmY3NzFmZjAzODBl/MDBjMGVlY2Y5NWI5/LmpwZw"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/IYMLDPR8g106lY37oS4FGncZqw8lmf-j4RYA8IAp9ls/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy1tYXJjYXMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzA0L01pY3Jvc29m/dC1BenVyZS1Mb2dv/dGlwby0yMDE3LTIw/MTgtNjUweDM2Ni5q/cGc"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/b_yaTiWxJ7ELp-R0kKsrqxp-cesGgTzbAappp6SXLTE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YnJhbmRmZXRjaC5p/by9pZEJkRzhEZEtl/L3cvNDAwL2gvNDAw/L3RoZW1lL2Rhcmsv/aWNvbi5wbmc_Yz0x/YnhpZDY0TXVwN2Fj/emV3U0FZTVgmdD0x/NjY3NTczNjU3NDYx"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/W0ydBatb8UyDveBqgxdz0r04LV5qf6HG0sg-C4cfVFs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzIxMDY2OTUucG5n"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/MsmxRo9hb0_gPNHJhcGnxV0z-bbt53-jWG1ypkS-Wko/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzMyLzEvb3ZoLWxv/Z28tcG5nX3NlZWts/b2dvLTMyMjQzNy5w/bmc"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/c1cP4UMQqIZnRgNWS8OH-WcE6EKYHVSoK8TN4peYn2k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/Lzk5NjA2MC5wbmc"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/PTziIvOyE2wxbogXkTZrFAbt3FEMp2sRMy6EpIJU4pk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzI3LzEvYW5ndWxh/ci1sb2dvLXBuZ19z/ZWVrbG9nby0yNzI4/MTMucG5n"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-              <li class="slide-item">
-                <a href="#"
-                  ><img
-                    src="https://imgs.search.brave.com/crenu3NYpLeEDhQpiUMA4vKhNRnFKKyqJnvRTXHq--s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuYml6aWJsLmNv/bS9zaXRlcy9kZWZh/dWx0L2ZpbGVzL244/bi1sb2dvLTQ4MC5w/bmc"
-                    class="imagen-integracion"
-                    alt=""
-                /></a>
-              </li>
-            </ul>
-
-          </div>
-        --></div>
-      </section>
-
-      <!--End Clients Section -->
-
-      <!-- Pricing Section -->
-      <section class="pricing-section-two" id="pricing">
-        <div class="auto-container">
-          <div class="row">
-            <!-- Pricing Block -->
-            <div class="pricing-block-two col-lg-4 col-md-6 col-sm-12">
-              <div class="inner-box">
-                <div class="title-box">
-                  <h3 class="title">Plan básico</h3>
-                  <div class="text">Monotributistas. 1 usuario</div>
-                </div>
-
-                <h2 class="price">
-                  <sup>$</sup>150.000<sub>+ IVA por mes</sub>
-                </h2>
-
-                <div class="sub-title">El plan basico incluye:</div>
-                <ul class="features">
-                  <li>Módulos Clientes y Ventas</li>
-                  <li>1000 comprobantes mensuales</li>
-                  <li>Soporte via mail</li>
-                  <li>Sin costo de instalación</li>
-                  <li>Sin período mínimo de permanencia</li>
-                </ul>
-                <a
-                  href="#"
-                  class="theme-btn btn-style-one contratar-btn"
-                  data-plan="Plan Básico"
-                  ><span class="btn-title">Quiero contratarlo</span></a
-                >
-              </div>
-            </div>
-
-            <!-- Pricing Block -->
-            <div class="pricing-block-two col-lg-4 col-md-6 col-sm-12">
-              <div class="inner-box">
-                <div class="title-box">
-                  <h3 class="title">Plan medio</h3>
-                  <div class="text">Pequeñas empresas. 5 usuarios</div>
-                </div>
-                <h2 class="price">
-                  <sup>$</sup>450.000<sub>+ IVA por mes</sub>
-                </h2>
-                <div class="sub-title">El plan medio incluye:</div>
-                <ul class="features">
-                  <li>
-                    Módulos Clientes, Proveedores, Ventas, Compras, Fondos,
-                    Stock
-                  </li>
-                  <li>Cantidad de comprobantes ilimitados</li>
-                  <li>Soporte via mail</li>
-                  <li>Sin costo de instalación</li>
-                  <li>Sin período mínimo de permanencia</li>
-                </ul>
-                <a
-                  href="#"
-                  class="theme-btn btn-style-one contratar-btn"
-                  data-plan="Plan Medio"
-                  ><span class="btn-title">Quiero contratarlo</span></a
-                >
-              </div>
-            </div>
-
-            <!-- Pricing Block -->
-            <div class="pricing-block-two col-lg-4 col-md-6 col-sm-12">
-              <div class="inner-box">
-                <div class="title-box">
-                  <h3 class="title">Plan Premium</h3>
-                  <div class="text">Medianas o grandes empresas</div>
-                </div>
-                <h2 class="price">Consultar</h2>
-                <div class="sub-title">Plan Premium incluye:</div>
-                <ul class="features">
-                  <li>Todos los modulos</li>
-                  <li>Atención personalizada</li>
-                  <li>Automatizaciones personalizadas</li>
-                  <li>Sin período mínimo de permanencia</li>
-                </ul>
-                <a
-                  href="#"
-                  class="theme-btn btn-style-one contratar-btn"
-                  data-plan="Plan Premium"
-                  ><span class="btn-title">Quiero contratarlo</span></a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Pricing Section -->
-
       <!-- Contact Section Three -->
-      <section id="contact" class="contact-section-three style-two">
+      <section id="contact" class="contact-section-three">
         <div class="auto-container">
           <div class="row">
             <!-- Info Column -->
             <div class="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2">
               <div class="inner-column wow fadeInRight">
                 <div class="sec-title">
-                  <div class="sub-title">Contacto</div>
-                  <h2>Estamos para ayudarte</h2>
+                  <div class="sub-title">CONTACTO</div>
+                  <h2>Estamos para ayudarte.</h2>
                   <div class="text">
+                    <!-- Witch sotech dolor sit amet consectetur adipiscing elit
+                    ultricies, in a dapibus venenatis malesuada suspendisse
+                    vestibulum massa, auctor lobortis nam etiam netus vel duis.
+                    In nec erat eget neque purus elementum mauris curabitur. -->
                     Completá el formulario y uno de nuestros especialistas se
                     pondrá en contacto con vos a la brevedad para asesorarte.
                   </div>
                 </div>
 
                 <div class="call-info-box-outer">
-                  <div class="call-info-box-text">Nuestra linea</div>
+                  <div class="call-info-box-text">Nuestra línea</div>
                   <div class="call-info-box">
                     <i class="icon fa fa-phone"></i>
                     <span>(+54) 341 6659888</span>
+                    <!-- <span>(+01) 000 321 11</span> -->
                   </div>
                 </div>
-                <!--
-                <div class="expert-info-box">
+
+                <!-- <div class="expert-info-box">
                   <figure class="image">
                     <img src="images/resource/expert-group.png" alt="Image" />
                   </figure>
@@ -2069,8 +1780,8 @@
                   <div class="expert-text">
                     We collaborated with <span>150+</span> new start-up
                   </div>
-                </div>
-              --></div>
+                </div> -->
+              </div>
             </div>
 
             <!-- Form Column -->
@@ -2079,7 +1790,7 @@
                 <!-- Contact Form -->
                 <div class="contact-form-two wow fadeInLeft">
                   <div class="title-box">
-                    <h3>Tienes preguntas??</h3>
+                    <h3>¿Tienes preguntas?</h3>
                     <span class="sub-title">No dudes en contactarnos.</span>
                   </div>
                   <!--Contact Form-->
@@ -2107,7 +1818,7 @@
                         <input
                           type="text"
                           name="website"
-                          placeholder="Teléfono"
+                          placeholder="Website o teléfono"
                           required
                         />
                       </div>
@@ -2147,7 +1858,7 @@
                           type="submit"
                           name="submit-form"
                         >
-                          <span class="btn-title">Enviar</span>
+                          <span class="btn-title">ENVIAR</span>
                         </button>
                       </div>
                     </div>
@@ -2268,7 +1979,7 @@
           </div>
         </div>
       </section>
-      End News Section -->
+     End News Section -->
 
       <!-- Main Footer -->
       <footer class="main-footer">
@@ -2285,8 +1996,8 @@
               <div class="footer-column col-xl-4 col-lg-12 col-md-6 col-sm-12">
                 <div class="footer-widget about-widget">
                   <div class="logo">
-                    <a href="index.html"
-                      ><img src="images/liberasoft.png" alt=""
+                    <a href="index-4-single.html"
+                      ><img src="images/liberasoft_wms.png" alt=""
                     /></a>
                   </div>
                   <div class="text">
@@ -2315,15 +2026,9 @@
                 <div class="footer-widget">
                   <h3 class="widget-title">Explorar</h3>
                   <ul class="user-links">
-                    <li><a href="index.html#home">Home</a></li>
-                    <li><a href="index.html#modulos">Módulos</a></li>
-                    <li><a href="index.html#apps">Apps</a></li>
-                    <li>
-                      <a href="index.html#integraciones">Integraciones</a>
-                    </li>
-                    <li><a href="index.html#ia">IA</a></li>
-                    <li><a href="index.html#pricing">Precios</a></li>
-                    <li><a href="index.html#contact">Contacto</a></li>
+                    <li><a href="index-4-single.html#home">Home</a></li>
+                    <li><a href="index-4-single.html#modulos">Módulos</a></li>
+                    <li><a href="index-4-single.html#contact">Contacto</a></li>
                   </ul>
                 </div>
               </div>
@@ -2437,20 +2142,6 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/popper.min.js"></script>
-    <!--Revolution Slider-->
-    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="js/main-slider-script.js"></script>
-    <!--Revolution Slider-->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.fancybox.js"></script>
     <script src="js/jquery-ui.js"></script>
@@ -2460,5 +2151,6 @@
     <script src="js/swiper.min.js"></script>
     <script src="js/owl.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/frontend.js"></script>
   </body>
 </html>
